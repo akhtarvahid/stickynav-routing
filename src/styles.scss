@@ -11,4 +11,27 @@ body {
    height: 70vh;
   }
  }
+ nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  background-color: coral;
+li {
+  float: left;
+  padding: 8px 10px;
+  border-right: thin solid rgba(255, 255, 255, 0.2);
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+   }
+  }
+ }
 }
